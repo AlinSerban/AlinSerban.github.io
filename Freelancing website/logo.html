@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Treehouse Collective</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="js/jquery.stellar.js"></script>
+    <script src="js/scrip.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+
+
+
+    <!-- meta -->
+
+
+    <!-- google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style2.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <link rel="stylesheet" href="css/social-buttons.css" media="screen" />
+
+
+    <!-- Scripts -->
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.actual.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            $(window).scroll(function () {
+
+                console.log("asdf");
+
+                if ($(window).scrollTop() > 100) {
+
+                    $('.top-header').addClass('shows');
+
+                } else {
+
+                    $('.top-header').removeClass('shows');
+
+                };
+            });
+
+        });
+
+        jQuery('.scroll').on('click', function (e) {
+            e.preventDefault()
+
+            jQuery('html, body').animate({
+                scrollTop: jQuery(this.hash).offset().top
+            }, 1500);
+        });
+    </script>
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+
+    <div id="hNav" class="navbar navbar-fixed-top navbar-inverse">
+        <!-- change bootstrap.css navbar-default color for 
+	        																			 other navbar color-->
+
+
+
+        <img src="Images/logo.png" alt="logo" id="imgLogo">
+
+        <!--JavaScript Pt butoane class="active"-->
+        <div id="menuBarHeader">
+            <ul class="nav nav-pills">
+                <li role="presentation"><a href="#home">Home</a></li>
+                <li role="presentation"><a href="#about">About</a></li>
+                <li role="presentation"><a href="#team">Team</a></li>
+                <li role="presentation"><a href="#services">Services</a></li>
+                <li role="presentation"><a href="#work">Latest work/In progress</a></li>
+                <li role="presentation"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="">
+        <!--container-fluid daca vrem sa fie pe tot ecranul-->
+
+        <div id="home" class="image" data-stellar-background-ratio="0.4">
+        <div>INNOVATIVE WEB DESIGN AND MORE
+    <br>
+            </div>
+    Treehouse Collective
+        
+        
+        </div>
+
+
+        
+
+        <div id="about" class="content">
+            <h1>We are Treehouse Collective</h1>
+            <p>We're a close-knit group of people who pride ourselves on doing great work and providing great service at a fair price. What do you really need to know about us? We're a friendly, approachable bunch, who don’t make websites just to look pretty on our portfolio page. Our websites roll up their sleeves to deliver an honest, hard working system designed solely to give you a great return on your investment. We know just how important this is and would love to talk to you about your project. So please do give us a call, we'd love to talk to you about how we could be of service.
+
+            </p>
+
+        </div>
+        <div id="team" class="content" data-stellar-background-ratio="0.4">
+
+
+
+            <h1>Meet the team</h1>
+
+            <section class="block-body">
+                <div class="row">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        </ol>
+                        <!-- /.carousel-indicators -->
+
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="img-center">
+                                    <img alt="pic1" class="img-circle circular-img" height="250" width="640" src="Images/snapshot.jpg">
+                                </div>
+
+                                <div class="footer">
+
+                                    <h3>nume+prenume</h3>
+                                    <a href="http://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+
+                                </div>
+
+                            </div>
+                            <!-- /.item -->
+                            <div class="item">
+                                <div class="img-center">
+                                    <img alt="pic2" class="img-circle circular-img" height="250" width="640" src="Images/img_test_1.jpg">
+                                </div>
+                                <h3>nume+prenume</h3>
+                                <a href="http://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+
+                            </div>
+                            <!-- /.item -->
+                            <div class="item">
+                                <div class="img-center">
+                                    <img class="img-circle circular-img" alt="pic3" height="250" width="640" src="Images/img_test_1.jpg">
+                                </div>
+                                <h3>nume+prenume</h3>
+                                <a href="http://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="img-center">
+                                    <img alt="pic4" class="img-circle circular-img" height="250" width="640" src="Images/img_test_1.jpg">
+                                </div>
+                                <h3>nume+prenume</h3>
+                                <a href="http://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </div>
+                            
+                            <!-- /.item -->
+                        </div>
+                        <!-- /.carousel-inner -->
+                    </div>
+                    <!-- /.carousel slide -->
+                </div>
+            </section>
+            <!-- /.block-body -->
+
+
+
+        </div>
+
+
+
+
+        <div id="services" class="content">
+
+            <h1>Services</h1>
+
+           
+		<div id="TL">WEB DEVELOPMENT</div>
+		<div id="TR">APP DEV</div>
+        <div id="BL">LOGO CREATION</div>
+		<div id="BR">SUPER COOL DESIGN </div>
+
+	
+
+        </div>
+        <div id="work" class="image" data-stellar-background-ratio="0.4">
+        <p>IN PROGRESS</p>
+        </div>
+
+
+        <div id="contact">
+            <div class="content-block" id="contactq">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 ">
+
+                            <h2 class="contactq-block">Have a question?</h2>
+                            <p>Please feel free to contact us via any means, all e-mail enquiries will be replied to within 24 hours.</p>
+                        </div>
+                        <div class="col-sm-4 ">
+                            <h2 class="contactq-block">Leave us a message</h2>
+                            <form action="contact-form.php" id="contactForm" method="post" name="contactform" >
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-white" id="name" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-white" id="email" name="email" placeholder="Enter email" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control form-control-white" id="message" name="massage" placeholder="Write Something" required></textarea>
+                                </div>
+                                <div id="contactFormResponse"></div>
+                                <div class="form-group">
+                                    <input id="cfsubmit" type="submit" class="text-center btn btn-o-white" value="Send">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-4">
+
+                            <h2 class="contactq-block">Contact Details</h2>
+                            <ul  class="mail">
+                                <li class="address-sub">Office Address
+                                <br>
+                                    Bucharest str xxx no xxx
+                                </li>
+       
+                                <li class="address-sub">Phone
+                                <br>
+                                    Mobile: 1-800-123-hello
+                                </li>
+                                    
+                                <li class="address-sub">Email Address
+                                <br>
+                                    <a href="mailto:3housecollective@gmail.com">3housecollective@gmail.com</a>
+                                </li>
+                                    
+
+                            </ul>
+
+                            <div class="footer">SOCIAL MEDIA
+                                <br>
+                                <a href="http://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="content-block footer-bottom" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">&copy; Copyright Treehouse Collective 2015</div>
+                </div>
+            </div>
+        </div>
+        <!-- #footer -->
+
+    </div>
+
+</body>
+
+</html>
