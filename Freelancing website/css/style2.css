@@ -1,11 +1,3 @@
-
-* {outline: none !important;}
-
-::selection {
-  background-color: #475B6F;
-  color: #fff;
-}
-
 html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
