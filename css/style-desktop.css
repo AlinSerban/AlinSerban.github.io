@@ -122,10 +122,16 @@
 		{
 		}
 
+.feature-list h1{
+    text-align: center;
+    font-size: 30px;
+    color:#fff;
+}
+
 			.feature-list section
 			{
-				padding-top: 2em;
-				border-top: solid 1px #eee;
+				padding-top: 3em;
+		
 			}
 
 			.feature-list .row
@@ -472,7 +478,7 @@
 
 	#features
 	{
-		padding: 0 6em 0 6em;
+		padding: 0 6em 6em 6em;
 	}
 
 		#features header.style1
